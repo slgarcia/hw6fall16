@@ -34,6 +34,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 gem 'themoviedb'
+gem 'simplecov', :require => false, :group => :test
 
 group :development do
    # Access an IRB console on exception pages or by using <%= console %> in views
